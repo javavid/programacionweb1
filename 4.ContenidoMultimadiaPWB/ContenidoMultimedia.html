@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+	<!--<Con esta linea definimos el lenguaje>-->
+	<html lang="es">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="author" content="Harrisson Zapata">
+			<meta name="descriotion" content="Primera Pagina Web">
+			<meta name="viewport" content="width=devide-width, initial-scale=1.0">
+			<title>Primera página web</title>
+		</head>
+		
+		<body>
+		<h1>Contenido Multimedia</h1>
+		
+		<h3>Imagen en la misma carpeta</h3>
+		
+		<!--<Tenemos el atributo "alt" que es para darle un nombre a la imagen cuando pasamos el cursor sobre ella>-->
+		<!--<tenemos los atributos Width y height que son ancho y alto de la imagen>-->
+		<img src="Imagen1.png" alt="Logo" width="460" height="360"/>
+	<br>
+		<h3>Imagen en Otra Carpeta</h3>
+		<img src="ContenidoMultimedia/Imagen2.png" alt="Logo" width="460" height="360"/>
+	<br>
+		<h3>VIDEO</h3>
+		<!--<Tenemos una propiedad "controls" para que muestre los botones de play, pause, Stop, etc.>-->
+		<!--<Tambien se puede definir propiedades como "autoplay" para que el video se ejecute tan pronto la pagina se cargue>-->
+		<!--<Tambien se puede definir propiedades como "loop" que hace que el video se ejecute en un ciclo>-->
+		<!--<Tambien se puede definir propiedades como "muted" para que el video se ejecute en silecio>-->
+		<video width="360" height="360" controls autoplay loop muted>
+		<!--<Con la propiedad "type" se define el tipo de video segun el formato>-->
+		<source src="VideoPrueba.mp4" type="video/mp4">
+		</video>
+	<br>
+		<h3>AUDIO</h3>
+		<!--<Esta etiqueta de audio tambien tiene las mismas propiedades "controls" "autoplay" "loop" "muted">-->
+		<audio controls>
+		<source src="AudioPrueba.wav" type="audio/wav">
+		</audio>
+	<br>
+		<h3>Imagen desde la WEB</h3>
+		
+		<!--<Solo se cambia la ubicacion poniendo la URL>-->
+		<img src="https://www.petdarling.com/wp-content/uploads/2021/01/cachorros.jpg" alt="Logo" width="460" height="360"/>
+	<br>
+		
+		<br>
+		<h3>Agregar un video de Yotube</h3>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/ZZA2xd_SvwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		
+		</body>
+	</html>
+	
+
